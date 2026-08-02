@@ -1,0 +1,35 @@
+# Arbol Insurance Services (AIS)
+
+> Arbol Insurance Services is a licensed insurance underwriting and brokerage general agent specializing in parametric insurance for hard-to-place named storm and weather risks. AIS distributes exclusively through licensed producers and holds underwriting authority up to $5,000,000 per policy from an A.M. Best "A" rated carrier, plus Lloyd's coverholder status. Products span named storm, precipitation, temperature, wind, snow, solar, and soil moisture perils across all 50 U.S. states.
+
+## Full Documentation
+- [llms-full.txt](https://arbol-insurance.com/llms-full.txt): Complete documentation of AIS products, underwriting, platform, team, and regulatory information
+
+## Products
+- [All Products](https://insurance.arbol.io/all-products): Full parametric weather insurance product lineup
+- [Named Storm](https://insurance.arbol.io/product/named-storm): Parametric coverage for hurricane and named storm risk (min. premium $100,000)
+- [Low Precipitation](https://insurance.arbol.io/product/low-precipitation): Coverage for drought and below-average rainfall
+- [Excess Precipitation](https://insurance.arbol.io/product/excess-precipitation): Coverage for flood and excessive rainfall events
+- [Low Temperature](https://insurance.arbol.io/product/low-temperature): Frost and cold snap coverage for temperature-sensitive businesses
+- [High Temperature](https://insurance.arbol.io/product/high-temperature): Coverage for extreme heat events
+- [Excess Snowfall Accumulation](https://insurance.arbol.io/product/excess-snowfall-accumulation): Coverage for heavy snowfall seasons
+- [Excess Snowfall Critical Days](https://insurance.arbol.io/product/excess-snowfall-critical-days): Coverage for frequency of high-snow days
+- [Low Snowfall](https://insurance.arbol.io/product/low-snowfall): Coverage for below-average snow seasons
+- [Low Wind](https://insurance.arbol.io/product/low-wind): Coverage for wind-dependent businesses when wind drops below trigger
+- [High Wind](https://insurance.arbol.io/product/high-wind): Coverage for wind or gust events exceeding a threshold
+- [Low Solar Irradiance](https://insurance.arbol.io/product/low-solar-irradiance): Coverage for solar energy businesses during low-sunlight periods
+- [Excess Soil Moisture](https://insurance.arbol.io/product/excess-soil-moisture): Coverage for excess soil moisture events
+
+## Platform & Access
+- [Producer Registration](https://app.arbol.io/sign-up): Register as a licensed producer to access AIS products
+- [Quote Platform](https://app.arbol.io/arbol-sign-up): Get instant premium indications and submit applications
+
+## Company & Legal
+- [Contact AIS](https://insurance.arbol.io/contact): Reach the AIS underwriting and sales team
+- [Legal Policies](https://insurance.arbol.io/legal-policies): Policy terms and conditions
+- [Privacy Policy](https://insurance.arbol.io/privacy-policy): Data privacy information
+- [License Information](https://insurance.arbol.io/license-information): State license numbers
+
+## Regional
+- [United Kingdom](https://insurance.arbol.uk): AIS UK operations
+- [Parent Company — Arbol.io](https://arbol.io): Derivatives, reinsurance, and broader climate risk platform

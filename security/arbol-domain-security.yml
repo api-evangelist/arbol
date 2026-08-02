@@ -1,0 +1,45 @@
+generated: '2026-08-02'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.arbol.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  1 11:52:44 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: insurance.arbol.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 13:20:03 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: insurance.arbol.uk
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 00:44:23 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: app.arbol.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 30 23:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: arbol.io
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: arbol.uk
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false
+x-note: >-
+  www.arbol.io was probed by 0-working/probe-domain-security.py from apis.yml
+  hosts; insurance.arbol.io, insurance.arbol.uk and app.arbol.io were probed
+  manually on the same date because Arbol has no apis[] entries for the script
+  to walk. app.arbol.io — the authenticated broker/agent platform — is the one
+  host with no HSTS header. arbol.uk publishes no SPF or DMARC record.

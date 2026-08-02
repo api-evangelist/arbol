@@ -1,0 +1,60 @@
+generated: '2026-08-02'
+method: probed
+result: none
+summary: >-
+  Arbol publishes no machine-readable API contract. Every step of the enrichment
+  pipeline's contract-discovery ladder (REST OpenAPI on the API host root,
+  GraphQL introspection, MCP tools/list, A2A agent card) was run against every
+  public Arbol host on 2026-08-02 and missed. Arbol's product is a broker/agent
+  web platform (app.arbol.io) plus licensed MGA distribution; there is no
+  developer portal, no API reference, no SDK for the platform and no public
+  base URL. This is a genuine absence, not an undiscovered spec.
+hosts_probed:
+- www.arbol.io
+- arbol.io
+- insurance.arbol.io
+- insurance.arbol.uk
+- app.arbol.io
+- arbolmarket.com (301 -> www.arbol.io)
+hosts_not_resolving:
+- api.arbol.io
+- docs.arbol.io
+- developer.arbol.io
+steps:
+- step: 1
+  name: REST OpenAPI on API host root and docs host
+  paths: [/openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json, /api/openapi.json,
+    /api/v1/openapi.json, /api-docs, /api/docs, /api/schema, /docs, /redoc]
+  result: miss
+  detail: All 404 on www.arbol.io, insurance.arbol.io, insurance.arbol.uk and app.arbol.io.
+    arbolmarket.com 301-redirects every path to www.arbol.io.
+- step: 2
+  name: GraphQL SDL via introspection
+  endpoints: ['https://app.arbol.io/v1/graphql', 'https://app.arbol.io/graphql',
+    'https://app.arbol.io/api/graphql', 'https://api.arbolmarket.com/v1/graphql',
+    'https://hasura.arbol.io/v1/graphql']
+  result: miss
+  detail: app.arbol.io paths returned HTTP 403 with an HTML edge/WAF body (not a GraphQL
+    error envelope); api.arbolmarket.com and hasura.arbol.io do not resolve. The
+    GitHub org carries a fork of hasura-storage, which suggests an internal Hasura
+    GraphQL layer, but nothing is exposed publicly. No schema captured — not fabricated.
+- step: 3
+  name: MCP tools/list
+  result: miss
+  detail: No MCP endpoint advertised in docs, llms.txt or /.well-known/mcp.json on
+    any host.
+- step: 4
+  name: A2A agent card
+  paths: [/.well-known/agent-card.json, /.well-known/agent.json]
+  result: miss
+  detail: 404 on all four hosts. Per pipeline policy no a2a/ artifact was written —
+    an agent card is search-only and must never be authored on a provider's behalf.
+- step: 5
+  name: AsyncAPI / webhook / event surface
+  result: miss
+  detail: No webhook documentation, event catalog or /asyncapi.yaml found. Arbol has
+    no public event surface, so the asyncapi scoring family is N/A rather than failed.
+what_was_found:
+- llms.txt on three hosts (see llms/_index.yml)
+- one legacy first-party PyPI package (see packages/arbol-packages.yml)
+- a public GitHub organization of climate-data ETL tooling (https://github.com/Arbol-Project)

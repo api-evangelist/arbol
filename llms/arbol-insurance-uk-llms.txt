@@ -1,0 +1,33 @@
+# Arbol Insurance Services — UK
+
+> Arbol Insurance Services UK Ltd is an FCA-regulated Managing General Agent (MGA) delivering parametric weather insurance globally — outside of the United States — backed by an A.M. Best "A" rated Lloyd's syndicate. Arbol UK serves agriculture, renewable energy, construction, and other weather-exposed sectors with AI-driven underwriting and fast, data-verified claims settlement. Winner of Insurance Insider's 2023 Underwriting Innovation of the Year Award. Products available via Lloyd's global licensing network to brokers worldwide, with a particular focus on SMEs.
+
+## Full Documentation
+- [llms-full.txt](https://insurance.arbol.uk/llms-full.txt): Complete documentation of Arbol UK's products, underwriting, platform, regulatory information, and team
+
+## Products
+- [All Products](https://insurance.arbol.uk/all-products): Full parametric weather insurance product lineup
+- [Tropical Cyclone](https://insurance.arbol.uk/product/tropical-cyclone): Parametric coverage for cyclone/hurricane/typhoon risk in international markets
+- [Low Cumulative Rainfall](https://insurance.arbol.uk/product/low-cumulative-rainfall): Coverage for drought and below-average rainfall
+- [High Cumulative Rainfall](https://insurance.arbol.uk/product/high-cumulative-rainfall): Coverage for excess and flood-level rainfall
+- [Low Temperature](https://insurance.arbol.uk/product/low-temperature): Frost and cold snap coverage
+- [High Temperature](https://insurance.arbol.uk/product/high-temperature): Extreme heat event coverage
+- [High Cumulative Snowfall](https://insurance.arbol.uk/product/high-cumulative-snowfall): Excess snowfall accumulation coverage
+- [High Snowfall Critical Days](https://insurance.arbol.uk/product/high-snowfall-critical-days): Coverage for frequency of high-snowfall days
+- [Low Cumulative Snowfall](https://insurance.arbol.uk/product/low-cumulative-snowfall): Below-average snowfall coverage for snow-dependent businesses
+- [Wind Renewables](https://insurance.arbol.uk/product/wind-renewables): Revenue protection for wind energy operators when wind drops below trigger
+- [High Wind Gust](https://insurance.arbol.uk/product/high-wind-gust): Coverage for damaging wind or gust events
+- [Low Solar](https://insurance.arbol.uk/product/low-solar): Revenue protection for solar energy businesses during low-irradiance periods
+- [Soil Moisture](https://insurance.arbol.uk/product/soil-moisture): Coverage for excess or insufficient soil moisture events
+
+## Platform & Access
+- [Contact / Register as a Producer](https://insurance.arbol.uk/contact): Enquire about broker registration and products
+- [Quote Platform](https://app.arbol.io/arbol-sign-up): Request premium indications and submit applications
+
+## Legal & Compliance
+- [Data Protection Policy](https://insurance.arbol.uk/data-protection-policy): UK GDPR data protection information
+- [Privacy Notice](https://insurance.arbol.uk/privacy-notice): Privacy information for users
+
+## Regional
+- [United States Operations](https://insurance.arbol.io): AIS US site for US-domiciled risks
+- [Parent Company — Arbol.io](https://arbol.io): Derivatives, reinsurance, and broader climate risk platform

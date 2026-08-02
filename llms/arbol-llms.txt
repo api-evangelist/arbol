@@ -1,0 +1,30 @@
+# Arbol
+
+> Arbol is a global climate risk solutions platform providing parametric and traditional insurance and weather derivatives. The #1 writer of global non-CAT parametric climate risk, with $2+ billion in notional risk transferred across 15+ countries. Arbol combines AI/ML underwriting, institutional-grade climate data, and dedicated risk capital to close the global insurance protection gap.
+
+## Full Documentation
+- [llms-full.txt](https://arbol.io/llms-full.txt): Complete documentation of Arbol's products, solutions, technology, leadership, and case studies
+
+## Solutions
+- [Overview](https://arbol.io/solutions): How parametric insurance works and Arbol's product suite
+- [Agriculture Derivatives](https://arbol.io/solutions/agriculture-derivatives): Parametric weather coverage for farmers and agribusinesses
+- [Energy Derivatives](https://arbol.io/solutions/energy): Weather derivatives for energy market participants
+- [Travel](https://arbol.io/solutions/travel): Weather risk coverage for travel businesses and providers
+- [Reinsurance](https://arbol.io/solutions/reinsurance): Parametric reinsurance solutions for insurers
+- [Insurance Services](https://insurance.arbol.io): Licensed parametric insurance products
+- [Platform](https://arbol.io/solutions/platform): Broker and agent platform for quoting and managing parametric coverage
+
+## Company
+- [About Arbol](https://arbol.io/company): Mission, values, and leadership team
+- [Why Arbol](https://arbol.io/why-arbol): The case for parametric insurance and Arbol's ecosystem
+- [Careers](https://arbol.io/careers): Open positions at Arbol
+
+## Insights
+- [Blog](https://arbol.io/blog): Thought leadership on climate risk, parametric insurance, and data
+- [Case Studies](https://arbol.io/case-studies): Real-world examples including Hurricane Ian, Hurricane Milton, and agricultural payouts
+- [Media & Press](https://arbol.io/media-and-press): News coverage and media appearances
+- [Events](https://arbol.io/events): Upcoming industry events
+
+## Resources
+- [Contact / Demo](https://arbol.io/contact): Request a quote or schedule a demo
+- [Help Center](https://arbol.io/help-center): Platform documentation and support

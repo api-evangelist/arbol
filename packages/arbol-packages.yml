@@ -1,0 +1,58 @@
+generated: '2026-08-02'
+method: searched
+source: https://pypi.org/pypi/dweather-client/json
+description: >-
+  Registry sweep on 2026-08-02 across PyPI, npm, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist and crates.io. Arbol ships no client SDK for
+  its parametric insurance platform — the platform is broker/agent facing and
+  has no public API. The only first-party published library is dweather-client,
+  a Python client for the legacy dWeather / dClimate weather-data-on-IPFS
+  network, last released in 2021. It is recorded here for provenance; it is NOT
+  an SDK for any current Arbol product, so no `SDKs` pointer is wired.
+packages:
+- language: python
+  registry: pypi
+  name: dweather-client
+  url: https://pypi.org/project/dweather-client/
+  install: pip install dweather-client
+  repository: https://github.com/Arbol-Project/dWeather-Python-Client
+  summary: Python client for interacting with weather data on IPFS.
+  version: 2.1.0
+  last_release: '2021-03-31'
+  official: true
+  status: legacy
+  publisher: Arbol <info@arbolmarket.com>
+  note: Client for the dWeather/dClimate IPFS climate-data network, not for the Arbol
+    insurance platform. Unmaintained since 2021.
+source_repositories:
+- name: dWeather-js-client
+  url: https://github.com/Arbol-Project/dWeather-js-client
+  language: javascript
+  published_to_registry: false
+  note: JavaScript sibling of dweather-client; never published to npm (registry.npmjs.org
+    returns 404 for dweather-js-client).
+- name: gridded-etl-tools
+  url: https://github.com/Arbol-Project/gridded-etl-tools
+  language: python
+  published_to_registry: false
+  note: Utilities for preparing gridded climate data ETLs. Actively pushed (2026-07-22)
+    but not on PyPI (404).
+- name: nettle
+  url: https://github.com/Arbol-Project/nettle
+  language: python
+  published_to_registry: false
+  note: Actively pushed (2026-07-22); not published to PyPI under that name.
+registries_checked:
+- {registry: pypi, result: 'dweather-client 200; gridded-etl-tools 404; nettle 404'}
+- {registry: npm, result: 'dweather-js-client 404; @arbol/sdk 404; arbol-sdk 404'}
+- {registry: maven-central, result: no first-party artifacts found}
+- {registry: nuget, result: no first-party artifacts found}
+- {registry: pkg.go.dev, result: no first-party modules found}
+- {registry: rubygems, result: no first-party gems found}
+- {registry: packagist, result: no first-party packages found}
+- {registry: crates.io, result: no first-party crates found}
+x-evidence:
+  fetched: '2026-08-02'
+  github_org: https://github.com/Arbol-Project
+  note: 'PyPI package named `arbol` (royerlab/arbol, "Arborescent Printouts in Python")
+    is an unrelated third party and is deliberately excluded.'
