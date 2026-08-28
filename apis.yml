@@ -12,6 +12,17 @@ description: 'Arbol is a global climate risk solutions platform providing parame
   and soil-moisture products through licensed producers across all 50 U.S. states
   and the United Kingdom. Arbol does not publish a public developer API — the quoting,
   binding and policy-issuance surface is delivered through its broker/agent web platform.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/6072644b22bcca3aacb3fc07/660df5808303b10f0696f1c9_logo-arbol-dark.svg
 url: https://raw.githubusercontent.com/api-evangelist/arbol/refs/heads/main/apis.yml
 x-type: company
